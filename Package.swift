@@ -13,6 +13,9 @@ let package = Package(
         .library(
             name: "ZGTestSDKPackage",
             targets: ["ZGTestSDKPackage"]),
+        .library(
+            name: "ZGTestSDK",
+            targets: ["ZGTestSDK"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
