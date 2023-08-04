@@ -28,12 +28,5 @@ let package = Package(
         .binaryTarget(
             name: "ZGTestSDK",
             path: "./Sources/ZGTestSDK.xcframework"),
-        .target(
-          name: "ZGTestSDK",
-          dependencies: [
-            // The product(s) you want (e.g. FirebaseAuth).
-            .product(name: "FirebaseAppCheck", package: "Firebase"),
-          ]
-        ),
     ]
 )
