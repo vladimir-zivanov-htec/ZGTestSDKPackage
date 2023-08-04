@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ZGTestSDK",
+    name: "ZGTestSDKPackage",
     platforms: [
           .macOS(.v12), .iOS(.v13)
     ],
