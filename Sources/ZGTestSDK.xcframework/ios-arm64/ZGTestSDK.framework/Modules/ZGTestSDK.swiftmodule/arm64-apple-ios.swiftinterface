@@ -1,0 +1,25 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZGTestSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+@_exported import ZGTestSDK
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers public class ZGSecureEnclaveManager {
+  public static func makeAndStorePublicKey(name: Swift.String) -> Security.SecKey?
+  public static func makeAndStoreKey(name: Swift.String) -> Security.SecKey?
+  public static func loadPublicKey(name: Swift.String) -> Security.SecKey?
+  public static func loadKey(name: Swift.String) -> Security.SecKey?
+  public static func removeKey(name: Swift.String) -> Swift.Bool
+  @objc deinit
+}
+extension ZGTestSDK.ZGSecureEnclaveManager {
+  public static func encrypt(text: Swift.String, with publicKey: Security.SecKey) -> Foundation.Data?
+  public static func decrypt(data: Foundation.Data, with key: Security.SecKey, completion: @escaping (Swift.String?) -> Swift.Void)
+}
+extension ZGTestSDK.ZGSecureEnclaveManager {
+  public static func sign(key: Security.SecKey, data: Foundation.Data) -> Foundation.Data?
+  public static func verifySignature(data: Foundation.Data, signature: Foundation.Data, publicKey: Security.SecKey) -> Swift.Bool
+}

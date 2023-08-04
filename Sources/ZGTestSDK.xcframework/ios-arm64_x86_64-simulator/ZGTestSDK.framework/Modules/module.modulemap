@@ -1,0 +1,11 @@
+framework module ZGTestSDK {
+  umbrella header "ZGTestSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module ZGTestSDK.Swift {
+  header "ZGTestSDK-Swift.h"
+  requires objc
+}
