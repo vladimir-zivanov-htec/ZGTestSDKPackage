@@ -2,6 +2,8 @@
 // swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZGTestSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import FirebaseAppCheck
+import FirebaseCore
 import Foundation
 import Swift
 @_exported import ZGTestSDK
@@ -22,4 +24,9 @@ extension ZGTestSDK.ZGSecureEnclaveManager {
 extension ZGTestSDK.ZGSecureEnclaveManager {
   public static func sign(key: Security.SecKey, data: Foundation.Data) -> Foundation.Data?
   public static func verifySignature(data: Foundation.Data, signature: Foundation.Data, publicKey: Security.SecKey) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers public class FirebaseAppChecker {
+  public static func initialize()
+  public static func getTokenForHeaderRequests()
+  @objc deinit
 }

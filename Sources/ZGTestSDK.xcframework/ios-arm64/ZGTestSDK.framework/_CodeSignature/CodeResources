@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/ZGTestSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		y5EOQ1VPpnnIxYmeEJxyS5qdKxE=
+		nrUR7dUED/AGdSfCHI0C4g4nu8E=
 		</data>
 		<key>Modules/ZGTestSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		FD0/FF74DbW7tp3dtgYA2Cuj0Ng=
+		hmOqQsA2sp8KcZTk5S3V8UHb/MI=
 		</data>
 		<key>Modules/ZGTestSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/ZGTestSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		FD0/FF74DbW7tp3dtgYA2Cuj0Ng=
+		hmOqQsA2sp8KcZTk5S3V8UHb/MI=
 		</data>
 		<key>Modules/ZGTestSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		PNYDtYEa11eIKIBleL5I3zkvcjE=
+		K6AR+NwTZnPvf7NEbkzaitely+s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qK5rx3MbCiTOfcEuGEqQMUWnmraTG1W7rEdDfa81aMY=
+			egg6RQGF+1xPbKmL6VhVAKnho19q+Bvy7NdoHUQOtCs=
 			</data>
 		</dict>
 		<key>Modules/ZGTestSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r27rPmSKSUxb7sN9rB3jM6OM9PtBjbdJ3FRSkbzj4jo=
+			zNkytOxgZEFCZLCTPc3Nlm5VbRm6vwHKZK91WySEWiY=
 			</data>
 		</dict>
 		<key>Modules/ZGTestSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r27rPmSKSUxb7sN9rB3jM6OM9PtBjbdJ3FRSkbzj4jo=
+			zNkytOxgZEFCZLCTPc3Nlm5VbRm6vwHKZK91WySEWiY=
 			</data>
 		</dict>
 		<key>Modules/ZGTestSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xIYwbla1gXBBXgcS0tfDbgi+UDM8uPIyfb3s2uKaySY=
+			sGD1/J4DZdAxyX5jbhP5hWgPrx1WfaNGynx4aDPMMBQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -406,6 +406,79 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseCore",
+        "printedName": "FirebaseCore",
+        "declKind": "Import",
+        "moduleName": "ZGTestSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseAppCheck",
+        "printedName": "FirebaseAppCheck",
+        "declKind": "Import",
+        "moduleName": "ZGTestSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FirebaseAppChecker",
+        "printedName": "FirebaseAppChecker",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ZGTestSDK18FirebaseAppCheckerC10initializeyyFZ",
+            "mangledName": "$s9ZGTestSDK18FirebaseAppCheckerC10initializeyyFZ",
+            "moduleName": "ZGTestSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getTokenForHeaderRequests",
+            "printedName": "getTokenForHeaderRequests()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9ZGTestSDK18FirebaseAppCheckerC25getTokenForHeaderRequestsyyFZ",
+            "mangledName": "$s9ZGTestSDK18FirebaseAppCheckerC25getTokenForHeaderRequestsyyFZ",
+            "moduleName": "ZGTestSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9ZGTestSDK18FirebaseAppCheckerC",
+        "mangledName": "$s9ZGTestSDK18FirebaseAppCheckerC",
+        "moduleName": "ZGTestSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
       }
     ],
     "json_format_version": 8
